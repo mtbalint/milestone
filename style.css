@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 65px;
-  background-color: #0a33fb;
+  background-color: #0a33fb !important;
   height: 100vh;
   height: 100%;
   font-family: "Overpass", sans-serif;
@@ -25,10 +25,12 @@ body {
 }
 
 h1 {
-  margin: 0;
+  margin: 0 !important;
   color: #ff3bff;
-  font-size: 10vw;
-  line-height: 95%;
+  font-size: 10vw !important;
+  line-height: 93% !important;
+  letter-spacing: 0px !important;
+  font-weight: 600 !important;
 }
 .mintext {
   width: 50%;
